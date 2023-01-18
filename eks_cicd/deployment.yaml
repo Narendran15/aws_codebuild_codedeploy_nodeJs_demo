@@ -13,7 +13,7 @@ spec:
         app: cicd-demo
     spec:
       containers:
-        - image: 259473336658.dkr.ecr.ap-south-1.amazonaws.com/cicd-demo:latest
+        - image: 259473336658.dkr.ecr.ap-south-1.amazonaws.com/demo-cicd
           imagePullPolicy: Always
           name: cicd-demo
           ports:
